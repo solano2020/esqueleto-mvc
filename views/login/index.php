@@ -8,5 +8,8 @@
 </head>
 <body>
     <h1>vista del login</h1>
+    <p><?php
+        $this->showMessages();
+    ?></p>
 </body>
 </html>

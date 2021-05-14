@@ -1,5 +1,5 @@
 <?php
-
+//clase para el manejo de errores, urls desconocidas, redireccion
 
 class erroresController extends controller
 {
