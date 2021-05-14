@@ -1,9 +1,14 @@
-[13-May-2021 22:08:45 UTC] hola de aplicacion web
-[13-May-2021 22:08:51 UTC] hola de aplicacion web
-[13-May-2021 22:41:08 UTC] hola de aplicacion web
-[13-May-2021 22:41:08 UTC] app::construct-> no hay controlador especificado
-[13-May-2021 22:41:08 UTC] PHP Warning:  require_once(controllers/loginController.php): failed to open stream: No such file or directory in C:\laragon\www\esqueleto-mvc\libs\app.php on line 15
-[13-May-2021 22:41:08 UTC] PHP Fatal error:  require_once(): Failed opening required 'controllers/loginController.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\esqueleto-mvc\libs\app.php on line 15
-[13-May-2021 22:49:00 UTC] hola de aplicacion web
-[13-May-2021 22:49:00 UTC] app::construct-> no hay controlador especificado
-[13-May-2021 22:49:01 UTC] loginController::construct -> inicio de login
+[14-May-2021 03:12:07 UTC] hola de aplicacion web
+[14-May-2021 03:12:07 UTC] app::construct-> no hay controlador especificado
+[14-May-2021 03:12:07 UTC] loginController::construct -> inicio de login
+[14-May-2021 03:12:07 UTC] PHP Warning:  require(views/login/indexphp): failed to open stream: No such file or directory in C:\laragon\www\esqueleto-mvc\libs\view.php on line 13
+[14-May-2021 03:12:07 UTC] PHP Fatal error:  require(): Failed opening required 'views/login/indexphp' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\esqueleto-mvc\libs\view.php on line 13
+[14-May-2021 03:15:46 UTC] hola de aplicacion web
+[14-May-2021 03:15:46 UTC] app::construct-> no hay controlador especificado
+[14-May-2021 03:15:46 UTC] loginController::construct -> inicio de login
+[14-May-2021 03:16:08 UTC] hola de aplicacion web
+[14-May-2021 03:16:08 UTC] app::construct-> no hay controlador especificado
+[14-May-2021 03:16:08 UTC] loginController::construct -> inicio de login
+[14-May-2021 03:16:30 UTC] hola de aplicacion web
+[14-May-2021 03:16:30 UTC] app::construct-> no hay controlador especificado
+[14-May-2021 03:16:30 UTC] loginController::construct -> inicio de login

@@ -1,18 +1,19 @@
 <?php
 
 
-class loginController{
+class loginController extends controller{
 
 
     function __construct()
     {
+        parent:: __construct();
         error_log('loginController::construct -> inicio de login');
     }
 
-    public function loadModel(){}
 
-    
-    //renderiza la vista de login
-    public function render(){}
+    //cargamos la vista por defecto 
+    function render(){
+       $this->view->render('login/index');
+    }
 
 }

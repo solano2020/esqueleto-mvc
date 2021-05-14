@@ -17,7 +17,7 @@ class app
             $archivoController = 'controllers/loginController.php';
             require_once $archivoController;
             $controller = new loginController();
-          //$controller->loadModel('login');
+            $controller->loadModel('login');
             $controller->render();
             return false;
         }
@@ -27,7 +27,7 @@ class app
         if (file_exists($archivoController)) {
             require_once $archivoController;
             $controller = new $url[0];
-            // $controller->loadModel();
+            $controller->loadModel();
             //comprobamos si hay un metodo 
             if (isset($url[1])) {
                 if (method_exists($controller, $url[1])) {
