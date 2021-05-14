@@ -1,5 +1,6 @@
 <?php
 
+require_once 'controllers/erroresController.php';
 
 class app
 {
@@ -48,7 +49,8 @@ class app
                        $controller->{$url[1]}();
                     }
                 } else {
-                    //error no existe el metodo
+                    //error, no existe el metodo
+                    $controller = new erroresController();
                 }
             } else {
                 //cargamos metodo por defecto
@@ -56,6 +58,8 @@ class app
             }
         } else {
             //error, no existe el archivo
+            $controller = new erroresController();
+            $controller->render();
         }
     }
 }

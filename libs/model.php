@@ -4,6 +4,8 @@
         que interactuan con la base de datos 
 */
 
+include_once 'libs/imodel.php';
+
 class model{
 
 
