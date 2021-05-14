@@ -1,0 +1,9 @@
+[13-May-2021 22:08:45 UTC] hola de aplicacion web
+[13-May-2021 22:08:51 UTC] hola de aplicacion web
+[13-May-2021 22:41:08 UTC] hola de aplicacion web
+[13-May-2021 22:41:08 UTC] app::construct-> no hay controlador especificado
+[13-May-2021 22:41:08 UTC] PHP Warning:  require_once(controllers/loginController.php): failed to open stream: No such file or directory in C:\laragon\www\esqueleto-mvc\libs\app.php on line 15
+[13-May-2021 22:41:08 UTC] PHP Fatal error:  require_once(): Failed opening required 'controllers/loginController.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\esqueleto-mvc\libs\app.php on line 15
+[13-May-2021 22:49:00 UTC] hola de aplicacion web
+[13-May-2021 22:49:00 UTC] app::construct-> no hay controlador especificado
+[13-May-2021 22:49:01 UTC] loginController::construct -> inicio de login
